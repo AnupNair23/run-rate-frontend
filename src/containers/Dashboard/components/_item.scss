@@ -1,0 +1,67 @@
+//item style 
+
+.item-container {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    padding: 15px 5px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.item-left {
+    width: 40%;
+}
+
+.item-right {
+    width: 60%;
+}
+
+.item-name {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.input-weight-div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 15px;
+
+    p {
+        font-weight: bold;
+
+        span {
+            font-weight: bold;
+            color: #ef3d65;
+        }
+    }
+}
+
+.item-price {
+    font-weight: bold;
+    color: #ef3d65;
+    font-weight: 15px;
+}
+
+.input-weight-number {
+    width: 40px;
+}
+
+.add-btn {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.add-btn {
+    height: 30px;
+    width: 60px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: #ef3d65;
+}

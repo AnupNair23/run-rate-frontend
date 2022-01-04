@@ -1,0 +1,145 @@
+.login-container {
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.login-container-bgm {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-image: url('../../images/login-bg.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.1;
+}
+
+.login-form-container {
+    width: 50%;
+    background: rgba(0, 0, 0, 0.9);
+    position: relative;
+    height: 60%;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.form-box {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+
+}
+
+.css-1kty9di-MuiFormLabel-root-MuiInputLabel-root {
+    color: white !important;
+    font-weight: bold !important;
+}
+
+.css-xn6ruc {
+    display: flex;
+    flex-direction: column;
+}
+
+.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+    background-color: #3a425f !important;
+    border-radius: 10px !important;
+}
+
+.css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 10px !important;
+    margin-bottom: 13px !important;
+}
+
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+    background-color: #323644 !important;
+    color: white !important;
+    border-radius: 10px;
+
+}
+
+.css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+    border-radius: 10px !important;
+    margin-bottom: 10px;
+}
+
+.css-sghohy-MuiButtonBase-root-MuiButton-root {
+    width: 200px !important;
+}
+
+.css-1wc848c-MuiFormHelperText-root {
+    line-height: 0.6 !important;
+}
+
+.start-text {
+    color: gray;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: left;
+    margin-top: 20px;
+    padding-right: 100px;
+}
+
+.create-account-text {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: left;
+    margin-top: 20px;
+    letter-spacing: 0.5px;
+}
+
+.dot-text {
+    color: #1C90F5;
+    font-size: 35px;
+}
+
+.member-text {
+    color: gray; 
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: capitalize;
+    text-align: left;
+    margin-top: 20px;
+    padding-right: 100px;
+}
+
+.login-text {
+    color: #1C90F5;
+}
+
+//welcome stylesheet
+
+.welcome-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    flex-direction: column;
+    background-image: url('../../images/thank-you.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.thanks-registering {
+    font-size: 30px;
+    color: red;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+    padding-top: 150px;
+}
+
+.login-text {
+    font-size: 20px;
+}

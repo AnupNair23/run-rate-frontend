@@ -1,0 +1,106 @@
+.dashboard-container {
+    padding: 5px;
+    background-color: black;
+    position: relative;
+    height: 94vh;
+}
+
+.data-grid-main {
+    height: auto;
+    width: 85%;
+    background: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+.add-contact-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.css-1wnsr1i {
+    background-color: #050505 !important;
+}
+
+.add-contact-text {
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+}
+
+.input-field-text {
+    color: white;
+    font-size: 13px;
+}
+
+.input-box-div {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.second-input-div {
+    margin-top: 15px;
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 3;
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+table {
+    width: 100%;
+}
+
+
+.delete-options {
+    color: red;
+    font-size: 15px;
+}
+
+.row-headers {
+    text-align: left;
+    height: 30px;
+    border: 1px solid black;
+}
+
+.th-headers {
+    border: 1px solid black;
+}
+
+.row-values {
+    height: 20px;
+    padding: 5px;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.first-column {
+    border-left: 1px solid black;
+}
+
+.contact-list-text {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+}
+
+.no-contacts-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

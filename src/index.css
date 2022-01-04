@@ -11,3 +11,72 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+p {
+  margin-bottom: 0px;
+  font-family: sans-serif;
+  margin-top: 0px;
+}
+
+.toast-container {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  height: 20px;
+  padding: 10px 15px;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(11deg 100% 42% / 87%);
+  opacity: 0.6;
+  border-radius: 10px;
+}
+
+.toast-text {
+  color: white;
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+
+/* //header */
+
+.header-container {
+    background-color: black;
+    height: 50px;
+    padding: 0px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-container>p {
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+
+.right-side-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right-side-header>.logout-option {
+  font-weight: 400;
+  font-size: 16px;
+  color: white;
+  padding-right: 10px;
+  color: red;
+}
+
+.profile-option {
+  color: white !important;
+}
